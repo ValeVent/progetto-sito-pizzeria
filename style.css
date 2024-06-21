@@ -1,0 +1,182 @@
+/* STYLE */
+
+/* reset dei campi. Stilizzo p e h1 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Cabin", sans-serif;
+}
+
+h1 {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    background-image: linear-gradient(to top, #FFFFFF 0%, rgb(255, 228, 228));
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* TOP MENU */
+
+/* dò un background di sfondo, che richiama il colore del logo ma ha una trasparenza per non stancare la vista, dò un pò di padding */
+#top-menu {
+    background-color: rgba(251, 7, 8, 0.85);
+    padding: 15px;
+}
+
+/* distribuisco gli elementi in orizzontale, gli do un pò di margine al top e li centro. */
+.contatti {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Opzione per cambiare colore ai PNG, per farli bianchi */
+/* .contatti .single-icon img {
+    filter: invert(100%) brightness(200%);
+} */
+
+/* Allineo l'icona con il paragrafo. */
+.contatti .single-icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Regolo i distanziamenti tra icona e paragrafo (margin-left) e tra i paragrafi stessi(margin-right), con i margin */
+.contatti .single-icon p {
+    margin-right: 30px;
+    margin-left: 10px;
+    /* Opzione per impostare i paragrafi in bianco, se si impostano i PNG in bianco  */  
+   /*  color: #ffffff; */
+}
+
+
+
+/* MENU-PRIMARY */
+
+/* allineo il logo al centro, distanziandolo al top con del margin */
+.logo {
+    margin-top: 90px;
+    text-align: center;
+}
+
+
+/* MENU PIZZERIA */
+
+/* allineo il titolo del menu al centro, distanziandolo al top con del margin */
+.menu-pizzeria {
+    margin-top: 90px;
+    text-align: center;
+}
+
+/* allineo il menu pizzeria al centro, regolo la dimensione del carattere */
+ul#myTab.nav.nav-tabs{
+    justify-content: center;
+    font-size: 20px;
+}
+
+/* distribuisco le immagini dei menu al 100% dello schermo per visualizzarle completamente e do del margine al top */
+.tab-content img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* stilizzo i bottoni menu, anche in hover */
+.tab-personal {
+    color:#f50b0b;
+}
+
+.tab-personal:hover {
+    color:#370303;
+}
+
+
+
+/* FOOTER */
+
+/* allineo il footer al centro, dando margine al top */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+/* dò un font family al paragrafo del footer */
+footer p {
+    font-family: "Cabin", sans-serif;
+}
+
+
+
+
+/* IMPOSTO MEDIA PER MOBILE */
+@media screen and (max-width: 767px) {
+
+/* TOP MENU */
+/* distribuisco gli elementi in colonna, gli do un pò di margine al top e li centro. */
+
+    .contatti {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+/* Regolo i distanziamenti tra icona e paragrafo e tra i paragrafi stessi, con i margin */
+    .contatti .single-icon p {
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+/* MENU-PRIMARY */
+/* allineo il logo al centro */
+    .nav-primary {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+/* dò al logo una dimensione, distanziandolo al top con del margin */
+    .nav-primary .logo img {
+        width: 250px;
+        margin-top: 50px;
+    }
+
+/* MENU PIZZERIA */
+/* allineo il menu pizzeria in colonna, lo centro e lo rendo più grande, dando un pò di margine al top */
+    ul#myTab.nav.nav-tabs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 100%;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+/* dò ai vari menu una grandezza del 100% per farli visualizzare completamente e dò un pò di spazio in alto, con il margin */
+    .tab-content img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+/* FOOTER */
+/* allineo il footer al centro, dando margine al top */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+/* dò un font family al paragrafo del footer e lo rendo più piccolo */
+footer p {
+    font-family: "Cabin", sans-serif;
+    font-size: 13px;
+}
+}
