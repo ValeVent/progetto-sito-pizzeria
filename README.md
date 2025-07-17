@@ -10,22 +10,22 @@ La landing page è progettata per presentare le informazioni essenziali di una p
 
 ## Tecnologie Utilizzate
 
-- HTML5: Struttura semantica della pagina, inclusi header, sezioni del menu e footer.
+- **HTML5**: Struttura semantica della pagina, inclusi header, sezioni del menu e footer.
 
-- CSS3: Styling personalizzato per l'intera pagina, gestendo layout, colori, tipografia e responsività, in combinazione con Bootstrap.
+- **CSS3**: Styling personalizzato per l'intera pagina, gestendo layout, colori, tipografia e responsività, in combinazione con Bootstrap.
 
-- Bootstrap 5: Framework front-end utilizzato per un rapido sviluppo responsivo, in particolare per la gestione del sistema a griglia e delle tab del menu.
+- **Bootstrap 5**: Framework front-end utilizzato per un rapido sviluppo responsivo, in particolare per la gestione del sistema a griglia e delle tab del menu.
 
 
 ## Funzionalità Principali
 
-- Contatti in Evidenza: Informazioni di contatto cruciali (località, indirizzo, telefono) posizionate in modo visibile nell'header.
+- **Contatti in Evidenza**: Informazioni di contatto cruciali (località, indirizzo, telefono) posizionate in modo visibile nell'header.
 
-- Menu Interattivo a Tab: Una sezione dedicata al menu con tab cliccabili che mostrano il contenuto (immagini del menu) per diverse categorie di prodotti.
+- **Menu Interattivo a Tab**: Una sezione dedicata al menu con tab cliccabili che mostrano il contenuto (immagini del menu) per diverse categorie di prodotti.
 
-- Design Responsivo: La pagina si adatta fluidamente a diverse dimensioni di schermo, dai desktop ai dispositivi mobili, garantendo un'esperienza utente ottimale su ogni device.
+- **Design Responsivo**: La pagina si adatta fluidamente a diverse dimensioni di schermo, dai desktop ai dispositivi mobili, garantendo un'esperienza utente ottimale su ogni device.
 
-- Struttura Chiara e Funzionale: Layout intuitivo che guida l'utente attraverso le informazioni chiave della pizzeria.
+- **Struttura Chiara e Funzionale**: Layout intuitivo che guida l'utente attraverso le informazioni chiave della pizzeria.
 
 
 ## Come Avviare il Progetto
@@ -72,8 +72,8 @@ Questo progetto è una landing page completamente funzionale e responsiva, ideal
 
 ## Contatti
 
-GitHub: https://github.com/ValeVent
+- **GitHub**: https://github.com/ValeVent
 
-LinkedIn: https://www.linkedin.com/in/valentina-venturo
+- **LinkedIn**: https://www.linkedin.com/in/valentina-venturo
 
-Sito Web: http://www.valentinaventuro.it
+- **Sito Web**: http://www.valentinaventuro.it
